@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>EJERCICIO 2</title>
+</head>
+<body>
+        <!--
+            Agregar productos a la lista de deseados. No se puede agregar más de una vez.
+            Quitar productos de la lista de deseados.
+            Chequear que el producto no esté en la lista y emitir una alerta si ya fue agregado.
+        -->
+    <div class="container">
+    <div class="row">
+        <div class="col-sm">
+            <h1 class="text-center mt-5" >Segundo Ejercicio Trabajo Practico 1</h1>
+        <ul class="list-unstyled mt-5 ">
+            <li class="media mt-5 border" >
+                <img src="img/img1.png" class="mr-3">
+                    <div class="media-body">
+                        <h5 class="mt-0 mb-1">Doll</h5>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, ducimus nulla voluptate in sed voluptatem perspiciatis .
+                    </div>
+                <button class="btn btn-primary mt-5" type="button" value="Doll">Buy</button>
+            </li>
+            <li class="media mt-5 border">
+                <img src="img/img2.png" class="mr-3">
+                    <div class="media-body">
+                        <h5 class="mt-0 mb-1">Mask</h5>
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in.
+                    </div>
+                <button class="btn btn-primary mt-5" type="button" value="Mask">Buy</button>
+            </li>
+            <li class="media mt-5 border">
+                <img src="img/img3.png" class="mr-3">
+                    <div class="media-body">
+                    <h5 class="mt-0 mb-1">Foo!</h5>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, ducimus nulla voluptate in sed voluptatem
+                    </div>
+                <button class="btn btn-primary mt-5" type="button" value="Foo!">Buy</button>
+            </li>
+        </ul>
+    </div>
+    
+        <div class="col-sm">
+            <h1 class="text-center mt-5">Lista de deseos</h1>       
+            <ul class="list-unstyled mt-5 ml-5 " id="wishList"></ul>
+        </div>
+    </div>
+    </div>
+        
+
+
+    <script src="WishList.js"></script>
+
+</body>
+</html>
